@@ -10,11 +10,20 @@
 </div>
 {% load static %}
 <link rel="stylesheet" type="text/css" href="{% static 'lights/style.css' %}">
-
-
     <div class="row">
         <div class="column">
-            <h1 class="seth1">Monday</h1>
+            <div id="day">
+                <svg viewBox='0 0 105 70'>
+                  <path d='M 25,25 
+                           a 20,20 1 0,0 0,40 
+                           h 50 
+                           a 20,20 1 0,0 0,-40 
+                           a 10,10 1 0,0 -15,-10 
+                           a 15,15 1 0,0 -35,10  
+                           z' />
+                   <text class="cloud" x="47%" y="65%" dominant-baseline="middle" text-anchor="middle">Monday</text>    
+                </svg>
+            </div>
             <form class="setform" action="" method="post">
                 {% csrf_token %}
                 {{monday.name_of_field.errors }}
@@ -23,7 +32,18 @@
             </form>
         </div>
         <div class="column">
-            <h1 class="seth1">Tuesday</h1>
+            <div id="day">
+                <svg viewBox='0 0 105 70'>
+                  <path d='M 25,25 
+                           a 20,20 1 0,0 0,40 
+                           h 50 
+                           a 20,20 1 0,0 0,-40 
+                           a 10,10 1 0,0 -15,-10 
+                           a 15,15 1 0,0 -35,10  
+                           z' />
+                   <text class="cloud" x="47%" y="65%" dominant-baseline="middle" text-anchor="middle">Tuesday</text>    
+                </svg>
+            </div>
             <form class="setform" action="" method="post">
                 {% csrf_token %}
                 {{tuesday.as_p}}
@@ -31,7 +51,18 @@
             </form>
         </div>
         <div class="column">
-            <h1 class="seth1">Wednesday</h1>
+            <div id="day">
+                <svg viewBox='0 0 105 70'>
+                  <path d='M 25,25 
+                           a 20,20 1 0,0 0,40 
+                           h 50 
+                           a 20,20 1 0,0 0,-40 
+                           a 10,10 1 0,0 -15,-10 
+                           a 15,15 1 0,0 -35,10  
+                           z' />
+                   <text class="cloud" x="47%" y="65%" dominant-baseline="middle" text-anchor="middle">Wednesday</text>    
+                </svg>
+            </div>
             <form class="setform" action="" method="post">
                 {% csrf_token %}
                 {{wednesday.as_p}}
@@ -39,7 +70,18 @@
             </form>
         </div>
         <div class="column">
-            <h1 class="seth1">Thursday</h1>
+            <div id="day">
+                <svg viewBox='0 0 105 70'>
+                  <path d='M 25,25 
+                           a 20,20 1 0,0 0,40 
+                           h 50 
+                           a 20,20 1 0,0 0,-40 
+                           a 10,10 1 0,0 -15,-10 
+                           a 15,15 1 0,0 -35,10  
+                           z' />
+                   <text class="cloud" x="47%" y="65%" dominant-baseline="middle" text-anchor="middle">Thursday</text>    
+                </svg>
+            </div>
             <form class="setform" action="" method="post">
                 {% csrf_token %}
                 {{thursday.as_p}}
@@ -47,7 +89,18 @@
             </form>
         </div>
         <div class="column">
-            <h1 class="seth1">Friday</h1>
+            <div id="day">
+                <svg viewBox='0 0 105 70'>
+                  <path d='M 25,25 
+                           a 20,20 1 0,0 0,40 
+                           h 50 
+                           a 20,20 1 0,0 0,-40 
+                           a 10,10 1 0,0 -15,-10 
+                           a 15,15 1 0,0 -35,10  
+                           z' />
+                   <text class="cloud" x="47%" y="65%" dominant-baseline="middle" text-anchor="middle">Friday</text>    
+                </svg>
+            </div>
             <form class="setform" action="" method="post">
                 {% csrf_token %}
                 {{friday.as_p}}
@@ -55,7 +108,18 @@
             </form>
         </div>
         <div class="column">
-            <h1 class="seth1">Saturday</h1>
+            <div id="day">
+                <svg viewBox='0 0 105 70'>
+                  <path d='M 25,25 
+                           a 20,20 1 0,0 0,40 
+                           h 50 
+                           a 20,20 1 0,0 0,-40 
+                           a 10,10 1 0,0 -15,-10 
+                           a 15,15 1 0,0 -35,10  
+                           z' />
+                   <text class="cloud" x="47%" y="65%" dominant-baseline="middle" text-anchor="middle">Saturday</text>    
+                </svg>
+            </div>
             <form class="setform" action="" method="post">
                 {% csrf_token %}
                 {{saturday.as_p}}
@@ -63,7 +127,18 @@
             </form>
         </div>
         <div class="column">
-            <h1 class="seth1">Sunday</h1>
+            <div id="day">
+                <svg viewBox='0 0 105 70'>
+                  <path d='M 25,25 
+                           a 20,20 1 0,0 0,40 
+                           h 50 
+                           a 20,20 1 0,0 0,-40 
+                           a 10,10 1 0,0 -15,-10 
+                           a 15,15 1 0,0 -35,10  
+                           z' />
+                   <text class="cloud" x="47%" y="65%" dominant-baseline="middle" text-anchor="middle">Sunday</text>    
+                </svg>
+            </div>
             <form class="setform" action="" method="post">
                 {% csrf_token %}
                 {{sunday.as_p}}

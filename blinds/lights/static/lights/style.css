@@ -120,7 +120,7 @@ button.buttonset {
   width: 100%;
 }
 
-#day text {
+#day text.cloud {
     font-size: 10pt;
 }
 

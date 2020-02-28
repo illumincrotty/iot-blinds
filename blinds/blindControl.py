@@ -23,7 +23,7 @@ days = ("monday",
         "sunday")
 
 parser = argparse.ArgumentParser(description='Process ip address.')
-parser.add_argument('--ip', default='140.141.234.197', type=str)
+parser.add_argument('--ip', default='140.141.207.240', type=str)
 ip = parser.parse_args().ip
 print(ip)
 

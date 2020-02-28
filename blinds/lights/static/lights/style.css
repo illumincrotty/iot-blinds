@@ -120,6 +120,10 @@ button.buttonset {
   width: 100%;
 }
 
+#day text {
+    font-size: 10pt;
+}
+
 svg {
   display: block;
   margin: auto;

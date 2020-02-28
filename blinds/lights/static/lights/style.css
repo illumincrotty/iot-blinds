@@ -112,3 +112,23 @@ th.wd {
     font-size: large;
     color: white;
 }
+
+svg {
+  display: block;
+  margin: auto;
+  height: 50%;
+  width: 50%;
+}
+path {
+  fill: white;
+  stroke: black;
+  stroke-width: 2;
+  stroke-linejoin: round;
+}
+path:hover {
+  fill: white;
+  stroke: #ADCDF4;
+}
+text.cloud {
+  font-size: 7pt;
+}

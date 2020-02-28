@@ -69,3 +69,46 @@ th.wd {
   text-align: left;
   text-transform: capitalize;
 }
+
+.column {
+    margin: 10px;
+}
+
+.h1 {
+    text-align: center;
+    color: white;
+    background: #ADCDF4;
+    border-radius: 5px;
+    font-weight: normal;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form {
+    background: #73A5D8;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.p {
+    margin-top: 10px;
+    margin-bottom: 10px;   
+}
+
+.input {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.button {
+background-color: #4790DE;
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-transform: capitalize;
+    width: 100%;
+    font-size: large;
+    color: white;
+}

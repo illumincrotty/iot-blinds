@@ -117,17 +117,18 @@ svg {
   display: block;
   margin: auto;
   height: 50%;
-  width: 30%;
+  width: 50%;
+}
+svg:hover path{
+  fill: white;
+  stroke: #ADCDF4;
 }
 path {
   fill: white;
-  stroke: black;
+  stroke: #3884E5;
   stroke-width: 2;
   stroke-linejoin: round;
-}
-path:hover {
-  fill: white;
-  stroke: #ADCDF4;
+  margin: -10px;
 }
 text.cloud {
   font-size: 7pt;

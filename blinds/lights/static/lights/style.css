@@ -74,7 +74,7 @@ th.wd {
     margin: 10px;
 }
 
-.h1.seth1 {
+h1.seth1 {
     text-align: center;
     color: white;
     background: #ADCDF4;
@@ -85,24 +85,24 @@ th.wd {
     margin-bottom: 10px;
 }
 
-.form.setform {
+form.setform {
     background: #73A5D8;
     border-radius: 5px;
     padding: 5px;
     color: white;
 }
 
-.form.setform .p {
+form.setform .p {
     margin-top: 10px;
     margin-bottom: 10px;   
 }
 
-.form.setform .input {
+form.setform .input {
     border-radius: 5px;
     padding: 5px;
 }
 
-.button.buttonset {
+button.buttonset {
     background-color: #4790DE;
     border-width: 0px;
     border-radius: 5px;

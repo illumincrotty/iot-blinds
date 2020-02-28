@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blinds State View</title>
+</head>
+<body>
+<div id="bg">
+  <img src="https://www.myfreetextures.com/wp-content/uploads/2014/10/sky2.jpg" alt="">
+</div>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'lights/style.css' %}">
+<div id="header">
+  <p>Blinds State</p>
+</div>
+<table>
+    <th></th>
+    <th>Start</th>
+    <th>End</th>
+    <th>Automatic</th>
+    {% for key, value in week.items %}
+    <tr><th class="wd">{{ key }}</th>
+        {% for key2,value2 in value.items %}
+            <td>{{value2}}</td>
+        {% endfor %}
+        </tr>
+    {% endfor %}
+</table>
+
+
+
+</body>
+</html>

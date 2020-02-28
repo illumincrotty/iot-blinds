@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blinds Settings View</title>
+</head>
+<body>
+<div id="bg">
+  <img src="https://www.myfreetextures.com/wp-content/uploads/2014/10/sky2.jpg" alt="">
+</div>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'lights/style.css' %}">
+
+
+    <div class="row">
+        <div class="column">
+            <h1>Monday</h1>
+            <form action="" method="post">
+                {% csrf_token %}
+                {{monday.name_of_field.errors }}
+                {{monday.as_p}}
+                <button type="submit" name=day value=monday>submit</button>
+            </form>
+        </div>
+        <div class="column">
+            <h1>Tuesday</h1>
+            <form action="" method="post">
+                {% csrf_token %}
+                {{tuesday.as_p}}
+                <button type="submit" name=day value=tuesday>submit</button>
+            </form>
+        </div>
+        <div class="column">
+            <h1>Wednesday</h1>
+            <form action="" method="post">
+                {% csrf_token %}
+                {{wednesday.as_p}}
+                <button type="submit" name=day value=wednesday>submit</button>
+            </form>
+        </div>
+        <div class="column">
+            <h1>Thursday</h1>
+            <form action="" method="post">
+                {% csrf_token %}
+                {{thursday.as_p}}
+                <button type="submit" name=day value=thursday>submit</button>
+            </form>
+        </div>
+        <div class="column">
+            <h1>Friday</h1>
+            <form action="" method="post">
+                {% csrf_token %}
+                {{friday.as_p}}
+                <button type="submit" name=day value=friday>submit</button>
+            </form>
+        </div>
+        <div class="column">
+            <h1>Saturday</h1>
+            <form action="" method="post">
+                {% csrf_token %}
+                {{saturday.as_p}}
+                <button type="submit" name=day value=saturday>submit</button>
+            </form>
+        </div>
+        <div class="column">
+            <h1>Sunday</h1>
+            <form action="" method="post">
+                {% csrf_token %}
+                {{sunday.as_p}}
+                <button type="submit" name=day value=sunday>submit</button>
+            </form>
+        </div>
+    </div>
+

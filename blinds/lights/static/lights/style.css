@@ -113,11 +113,18 @@ button.buttonset {
     color: white;
 }
 
+#day svg {
+  display: block;
+  margin: auto;
+  height: 50%;
+  width: 100%;
+}
+
 svg {
   display: block;
   margin: auto;
   height: 50%;
-  width: 50%;
+  width: 30%;
 }
 svg:hover path{
   fill: white;
